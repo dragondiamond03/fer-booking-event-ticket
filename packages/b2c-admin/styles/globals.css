@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    overflow-y: overlay;
+}
+
+.ant-btn-primary:not([disabled]) {
+    background: #1677ff !important;
+}
+.ant-btn-primary:not([disabled]):hover {
+    background: #1f4ce0 !important;
+}

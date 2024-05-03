@@ -1,0 +1,8 @@
+{
+  "name": "server",
+  "packageManager": "yarn@4.0.2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "json-server --port 8080 --watch db.json"
+  }
+}
